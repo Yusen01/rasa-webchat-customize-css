@@ -1,0 +1,82 @@
+.rw-header {
+    align-items: center !important;
+    background-color: var(--color-primary) !important;
+    flex-direction: row !important;
+    height: 68px !important;
+    justify-content: flex-start !important;
+    padding: 10px !important;
+}
+
+.rw-header .rw-avatar {
+    all: revert !important;
+    border-radius: 100% !important;
+    display: inline-block !important;
+    height: 45px !important;
+    left: 0 !important;
+    margin-right: 10px !important;
+    position: relative !important;
+    top: 0 !important;
+    width: 45px !important;
+}
+
+.rw-title {
+    font-size: 1.8rem !important;
+    font-weight: 500 !important;
+    left: 0px !important;
+    position: relative !important;
+}
+
+.rw-message {
+    flex-wrap: nowrap !important; 
+    margin-bottom: 10px !important;
+}
+
+.rw-group-message.rw-from-response .rw-message:not(:first-child):not(:only-child).rw-with-avatar {
+    margin-left: 48px !important;
+}
+
+.rw-avatar {
+    bottom: 0 !important;
+    height: 32px !important;
+    width: 32px !important;
+}
+
+.rw-response {
+    border-radius: 2px 7px 7px !important;
+    font-size: 1.4rem !important;
+    font-weight: 400 !important;
+    font-family: 'SF UI Display', -apple-system, system-ui, sans-serif !important;
+    line-height: 1.57 !important;
+    max-width: 76% !important;
+}
+
+.rw-client {
+    background-color: var(--color-primary) !important;
+    border-radius: 7px 2px 7px 7px !important;
+    font-size: 1.4rem !important;
+    font-weight: 400 !important;
+    line-height: 1.57 !important;
+}
+
+.rw-reply {
+    background-color: white !important;
+    border: 1px solid var(--color-primary) !important;
+    box-shadow: none !important;
+    color: black !important;
+    font-size: 1.2rem !important;
+    font-weight: 400 !important;
+    margin: 1rem 1rem 0 0 !important;
+}
+
+.rw-send-icon-ready {
+    fill: var(--color-primary) !important;
+}
+
+.rw-new-message {
+    font-size: 1.4rem !important;
+    color: black !important;
+}
+
+.rw-launcher {
+    background-color: var(--color-primary) !important;
+}
